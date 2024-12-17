@@ -272,7 +272,7 @@ class _LoginPageState extends State<LoginPage> {
                     margin: EdgeInsets.symmetric(horizontal: 150),
                     padding: EdgeInsets.all(24),
                     constraints: BoxConstraints(
-                      minHeight: 400, // Buraya istediğiniz minimum yükseklik değerini yazabilirsiniz
+                      minHeight: 400,
                     ),
                     decoration: BoxDecoration(
                       color: Theme.of(context).colorScheme.surface,
