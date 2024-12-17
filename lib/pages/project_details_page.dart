@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Projects_model.dart'; // Assuming you have the models defined here
+import 'Projects_model.dart';
 import 'user_profile_page.dart';
 
 class ProjectDetailsPage extends StatefulWidget {
@@ -96,7 +96,7 @@ class _ProjectDetailsPageState extends State<ProjectDetailsPage> {
       case 2:
         return 'Ayarlar';
       case 3:
-        return 'Çalışanlar';  // Çalışanlar sekmesi
+        return 'Çalışanlar';
       default:
         return 'Projeler';
     }
@@ -111,7 +111,7 @@ class _ProjectDetailsPageState extends State<ProjectDetailsPage> {
       case 2:
         return Center(child: Text('Ayarlar'));
       case 3:
-        return _buildEmployeeList();  // Çalışanlar içeriği
+        return _buildEmployeeList();
       default:
         return _buildProjectList();
     }
